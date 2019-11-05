@@ -1,6 +1,15 @@
-const rectangleWidth = 100
-const rectangleLength = 20
+const digitA = 100
+const digitB = 200.5
 
-const rectangleArea = rectangleWidth * rectangleLength
+const resultAddition = digitA + digitB
+const resultSubstraction = digitA - digitB
+const resultMultiplication = digitA * digitB
+const resultDivison = digitA / digitB
 
-console.log(`${rectangleArea} = ${rectangleWidth} * ${rectangleLength}`)
+console.log(digitA)
+console.log(digitB)
+
+console.log(resultAddition)
+console.log(resultSubstraction)
+console.log(resultMultiplication)
+console.log(resultDivison)
